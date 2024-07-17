@@ -24,7 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 25px 100px 100px 100px;
+    margin: 25px 100px 50px 100px;
 }
 
 .logo {
@@ -56,6 +56,14 @@ header {
     gap: 16px;
 }
 
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 0 100px 160px 100px;
+}
+
 .header-text {
     display: flex;
     flex-direction: column;
@@ -85,14 +93,9 @@ button {
 }
 
 .header-image img {
-    height: auto;
-    width: 640px;
-}
-
-.header-main {
-    display: flex;
-    gap: 50px;
-    margin: 0 100px 100px 100px;
+    height: 300px;
+    width: 600px;
+    object-fit: cover;
 }
 
 .gallery {

@@ -108,7 +108,14 @@ button {
     color: #1F2937;
 }
 
-.gallery img {
-    max-width: 50%;
-    height: auto;
+.gallery-images {
+    list-style: none;
+    display: flex;
 }
+
+.gallery img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+

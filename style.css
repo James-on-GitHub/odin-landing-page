@@ -28,7 +28,6 @@ header {
 }
 
 .logo {
-    margin: 0;
     display: flex;
     align-items: center;
     gap: 16px;
@@ -40,13 +39,26 @@ header {
     color: #F9FAF8;
 }
 
-nav {
+.logo,
+ nav,
+ a,
+ button,
+ .hero-main-text,
+ .hero-text,
+ .header-text,
+ .header-image {
     margin: 0;
 }
 
 ul {
     list-style: none;
     display: flex;
+    gap: 16px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
     gap: 16px;
 }
 
@@ -60,4 +72,25 @@ a, .hero-text {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 30px;
+    border: 1px solid #3882F6;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.header-image img {
+    height: auto;
+    width: 640px;
+}
+
+.header-main {
+    display: flex;
+    gap: 50px;
+    margin: 0 100px 100px 100px;
 }

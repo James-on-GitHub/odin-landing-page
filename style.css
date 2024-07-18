@@ -47,6 +47,8 @@ header {
  .hero-text,
  .header-text,
  .header-image,
+ .quote-section,
+ .quote-container,
  .quote,
  .quote-author {
     margin: 0;
@@ -144,13 +146,12 @@ button {
 
 .quote-section {
     background-color: #E5E7EB;
+    padding: 100px;
 }
 
 .quote-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 100px;
     color: #1F2937;
 }
 

@@ -47,6 +47,8 @@ header {
  .hero-text,
  .header-text,
  .header-image,
+ .gallery-title,
+ .gallery-images,
  .quote-section,
  .quote-container,
  .quote,
@@ -108,14 +110,14 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 150px;
+    padding: 50px 100px 100px 100px;
+    gap: 50px;
 }
 
 .gallery-title {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    margin: 50px;
 }
 
 .gallery-images {

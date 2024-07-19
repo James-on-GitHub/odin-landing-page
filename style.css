@@ -214,3 +214,42 @@ a, .hero-text {
     font-size: 15px;
     font-weight: bold;
 }
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+
+.footer-credits,
+.copyright,
+.footer-author {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container {
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-credits {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.credit-one {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.credit-two {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}

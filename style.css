@@ -166,3 +166,51 @@ a, .hero-text {
     font-size: 20px;
     align-self: flex-end;
 }
+
+.call-to-action-section {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-container .call-to-action-text, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.call-to-action-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 50px 90px;
+    width: 1300px;
+    border-radius: 6px;
+    margin: 100px 50px;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.call-to-action-container h3 {
+    font-size: 20px;
+}
+
+.call-to-action-container p {
+    font-size: 18px;
+}
+
+.call-to-action-container button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 30px;
+    border: 1px solid #F9FAF8;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+}

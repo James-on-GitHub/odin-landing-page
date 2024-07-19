@@ -256,6 +256,11 @@ footer {
     gap: 16px;
 }
 
+.footer-credits a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 .credit-one {
     display: flex;
     flex-direction: column;
